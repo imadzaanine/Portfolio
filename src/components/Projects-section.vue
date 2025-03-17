@@ -51,7 +51,7 @@ export default {
                     title: 'Serenity',
                     description: 'A personal project of mine that i built as my first project to test my skills, it is a website that allows the user to book online therapy sessions with a therapist and can talk to them via chat or video call, built with Vue for the frontend and Laravel for the backend. Firebase is used for chat and WebRTC signaling for video calls.',
                     image: require('../assets/serenity.jpeg'),
-                    link: 'https://www.example.com'
+                    link: 'https://serenity-navy.vercel.app/'
                 }
             ]
         };
