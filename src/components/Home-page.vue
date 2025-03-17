@@ -1,5 +1,5 @@
 <template>
-    <div class="container h-full flex flex-col lg:pt-20 lg:pl-40 lg:pr-20 space-y-10 lg:space-y-0 p-10">
+    <div class="container h-full flex flex-col lg:pt-20 lg:pl-40 lg:pr-20 space-y-10 lg:space-y-0 p-4">
         <HeroSection :scrollToSection="scrollToSection" />
         <div ref="scrollContainer" class="Scroll-section flex flex-col justify-between align-start md:w-full gap-32 lg:w-1/2 lg:ml-auto">
             <section ref="about" data-section="About">
@@ -8,7 +8,7 @@
             <section ref="projects" data-section="Projects">
                 <ProjectsSection />
             </section>
-            <section ref="skills" data-section="Skills">
+            <section ref="skills" data-section="Skills" class="space-y-32">
                 <SkillsSection />
                 <ContactSection />
             </section>

@@ -1,7 +1,7 @@
 <template>
     <div
-        class="project-card flex p-4 items-center justify-center group bg-transparent hover:bg-white hover:bg-opacity-10 transition-all duration-300 rounded-lg cursor-pointer">
-        <img :src="image" alt="Project Image" class="w-30 h-16 object-cover rounded-lg flex-shrink-0" />
+        class="project-card flex flex-col sm:flex-row p-4 items-center justify-center group bg-transparent hover:bg-white hover:bg-opacity-10 transition-all duration-300 rounded-lg cursor-pointer w-full ">
+        <img :src="image" alt="Project Image" class="w-30 h-16 object-cover rounded-lg flex-shrink-0 " />
         <div class="p-4 flex-1">
             <div class="forward flex items-center gap-2">
                 <h2

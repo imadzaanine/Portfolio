@@ -1,9 +1,9 @@
 <template>
-  <section class="hero-section flex flex-col justify-between lg:fixed lg:h-[80vh]">
+  <section class="hero-section flex flex-col justify-between lg:fixed lg:h-[80vh] gap-y-10">
     <div class="text-menu-section flex flex-col items-start justify-center space-y-14 w-2/3">
       <div class="text-section space-y-4">
-        <a href="#" class="text-5xl font-semibold leading-relaxed">Zaanine Imad Eddine</a>
-        <h2 class="text-xl text-[#bbc7de]">Front End Developer</h2>
+        <a href="#" class="lg:text-5xl md:text-2xl text-3xl lg:font-semibold font-bold leading-relaxed">Zaanine Imad Eddine</a>
+        <h2 class="lg:text-xl text-[18px] text-[#bbc7de]">Front End Developer</h2>
         <p class="text-[#7787a4]">
           I build accessible, pixel-perfect digital experiences for the web.
         </p>
@@ -32,8 +32,8 @@
       </div>
     </div>
     <div class="contacts flex items-center space-x-8 mb-8">
-      <a href=""><Github/></a>
-      <a href=""><Linkedin/></a>
+      <a href="https://github.com/imadzaanine" target="_blank"><Github/></a>
+      <a href="https://www.linkedin.com/in/imad-zaanine-059794323/" target="_blank"><Linkedin/></a>
     </div>
   </section>
 </template>
@@ -50,7 +50,7 @@ export default {
     Linkedin,
   },
   props: {
-    scrollToSection: Function, // ✅ Accept scrollToSection as a prop
+    scrollToSection: Function, // 
   },
   setup() {
     const sectionStore = useSectionStore();
