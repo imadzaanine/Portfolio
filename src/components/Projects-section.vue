@@ -37,14 +37,14 @@ export default {
                     title: 'Car rental website',
                     description: 'A freelance project I worked on for a car rental company, i used Vue and bootsrap to build it and used VueX for state management and axios for API calls',
                     image: require('../assets/anistour.jpeg'),
-                    link: 'https://www.example.com'
+                    link: 'https://anistour-vue.vercel.app/'
                 },
                 {
                     id: 2,
                     title: 'Crypto chat website',
                     description: 'A chat website that talks about crypto currency and meme coins for a friend of mine, the website is built with Vue and uses openai API playgrounds bot for the chatbot',
                     image: require('../assets/aibot.jpeg'),
-                    link: 'https://www.example.com'
+                    link: 'https://ai-bot-chat-five.vercel.app/'
                 },
                 {
                     id: 3,
