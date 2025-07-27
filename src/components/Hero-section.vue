@@ -33,7 +33,7 @@
     </div>
     <div class="contacts flex items-center space-x-8 mb-8">
       <a href="https://github.com/imadzaanine" target="_blank"><Github/></a>
-      <a href="https://www.linkedin.com/in/imad-zaanine-059794323/" target="_blank"><Linkedin/></a>
+      <a href="https://www.linkedin.com/in/imad-eddine-zaanine-059794323/" target="_blank"><Linkedin/></a>
     </div>
   </section>
 </template>
